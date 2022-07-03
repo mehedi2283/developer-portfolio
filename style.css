@@ -1,0 +1,38 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    margin: 0;
+
+}
+
+.orange {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 70%;
+    margin-left: 150px;
+}
+
+.link-button {
+    text-decoration: none;
+    border-radius: 7px;
+    background-image: radial-gradient(orange, orangered);
+    padding: 10px;
+    color: aliceblue;
+    font-weight: 800;
+}
+
+.top-banner {
+    background-image: url(developer-portfolio/images/top-banner.png);
+    background-repeat: no-repeat;
+}
