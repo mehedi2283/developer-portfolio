@@ -9,7 +9,7 @@ body {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
 }
 
@@ -57,4 +57,40 @@ section {
 .midpadding {
     padding-right: 130px;
     text-align: justify;
+}
+
+.box-shadow {
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#future-fullstack {
+    border-left: 10px solid orangered;
+}
+
+#NOOB {
+    border-left: 10px solid blue;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.experience {
+    background-image: url(developer-portfolio/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+footer {
+    text-align: center;
 }
