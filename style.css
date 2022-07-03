@@ -5,6 +5,13 @@ body {
 
 }
 
+#red {
+    color: red;
+    font-size: larger;
+    font-weight: 900;
+    font-style: oblique;
+}
+
 .orange {
     color: orange;
 }
@@ -105,6 +112,10 @@ h3 {
     background-repeat: no-repeat;
     background-position: left;
 
+}
+
+.exp {
+    margin-left: 5%;
 }
 
 footer {
