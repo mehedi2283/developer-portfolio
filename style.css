@@ -18,6 +18,7 @@ body {
 
 .flexible {
     display: flex;
+    border-bottom: 20px groove rgb(255, 55, 0)
 }
 
 .half-width {
@@ -50,6 +51,7 @@ body {
     background-image: url(developer-portfolio-master/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-top: 10px;
 }
 
 .half-width2 {
@@ -87,6 +89,9 @@ body {
 
 #future-fullstack {
     border-left: 10px solid orangered;
+    border-right: 3px solid orangered;
+    border-radius: 2%;
+
     text-align: left;
     padding-right: 3%;
     padding-left: 65px;
@@ -94,6 +99,8 @@ body {
 
 #NOOB {
     border-left: 10px solid blue;
+    border-right: 3px solid blue;
+    border-radius: 2%;
     text-align: left;
     padding-right: 3%;
     padding-left: 65px;
