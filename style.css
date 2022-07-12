@@ -18,7 +18,7 @@ body {
 
 .flexible {
     display: flex;
-    border-bottom: 20px groove rgb(255, 55, 0)
+    border-bottom: 20px groove rgb(255, 98, 0)
 }
 
 .half-width {
@@ -34,21 +34,28 @@ body {
 .link-button {
     text-decoration: none;
     border-radius: 7px;
-    background-image: linear-gradient(orange, orangered);
+    background-image: radial-gradient(orange, rgba(219, 58, 0, 0.718));
     padding: 10px;
     color: aliceblue;
     font-weight: 800;
     box-shadow: -5px 5px 20px orangered;
 }
+.link-button:hover {
+    background-image: radial-gradient(orange, rgba(0, 0, 0, 0.718));
+    box-shadow: -5px 5px 20px rgb(154, 41, 0);
+
+
+}
+
 
 .top-banner {
-    background-image: url(developer-portfolio-master/images/top-banner.png);
+    background-image:linear-gradient(to right ,rgba(228, 53, 0, 0.463), rgba(11, 3, 0, 0)), url(developer-portfolio-master/images/top-banner.png);
     background-repeat: no-repeat;
 }
 
 .dream-big {
 
-    background-image: url(developer-portfolio-master/images/dream-bg.png);
+    background-image:linear-gradient(to left ,rgba(228, 53, 0, 0.463), rgba(11, 3, 0, 0)), url(developer-portfolio-master/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     padding-top: 10px;
@@ -115,7 +122,7 @@ h3 {
 }
 
 .experience {
-    background-image: url(developer-portfolio-master/images/exp-bg.png);
+    background-image:linear-gradient(to top,rgba(228, 53, 0, 0.463), rgba(11, 3, 0, 0)), url(developer-portfolio-master/images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 
@@ -127,4 +134,8 @@ h3 {
 
 footer {
     text-align: center;
+    background-image: linear-gradient(to top,rgba(228, 53, 0, 0.609) 50%, rgba(11, 3, 0, 0)) ; 
+    background-color: rgba(143, 143, 143, 0.632);
+    padding: 5%;
+    border: 5px solid rgb(148, 30, 0);
 }
